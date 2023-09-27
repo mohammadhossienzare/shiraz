@@ -1,0 +1,124 @@
+body {
+  overflow-x: hidden;
+}
+
+#p {
+  overflow: auto;
+  flow: left;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  border: 2px solid black;
+  outline: 2px solid gold;
+  box-shadow: 5px 5px 5px gray;
+
+}
+
+.audio {
+  border-radius: 200px;
+  border: 2px deepskyblue solid;
+  outline: orchid solid 3px;
+  box-shadow: 10px 10px 10px deepskyblue;
+}
+
+.video {
+  border-radius: 200px;
+  border: 2px deepskyblue solid;
+  outline: orchid solid 3px;
+  box-shadow: 10px 10px 10px deepskyblue;
+}
+
+#id {
+  color: black;
+  border-style: solid;
+  border-width: 6px;
+}
+
+body {
+  background-image: linear-gradient(white, turquoise);
+}
+
+.table {
+  border: 4px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: left;
+
+}
+
+.p {
+  font: medium black;
+  font-family: "B Lotus";
+  direction: ltr;
+  text-transform: capitalize;
+  text-align: justify;
+
+}
+
+address {
+  font-weight: bold;
+}
+
+.div {
+  float: left;
+}
+
+#oo {
+  width: 100px;
+  height: 100px;
+}
+
+header {
+  font-family: "B Lotus";
+  font-size: 90px;
+  text-shadow: 25px 20px 25px red;
+  border: 20px black;
+  text-align: center;
+}
+
+.media-box {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-box audio, .media-box video {
+  width: 33.33%;
+}
+
+.cards-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 18px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 8px 8px #0000002b;
+  border-radius: 19px;
+}
+
+.card-item {
+
+}
+
+.card-item-title {
+  font-size: 11px;
+  color: gray;
+}
+
+.card-item-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+.link
+a:link{
+  color:deeppink;
+  text-shadow: 25px 25px 25px yellow;
+}
